@@ -13,6 +13,7 @@ ul,p{
 ul{
     list-style: none;
     padding-left: 10px;
+    animation:cambiar 5s infinite;
 }
 
 .contenedor{
@@ -26,6 +27,7 @@ ul{
     bottom: 0px;
     left: 0px;
     right: 0px;
+    line-height: 40px;
     overflow: hidden;
 
 }
@@ -43,7 +45,8 @@ ul{
 }
 
 /*
-
+PARA EL TRABAJO HACER EL BANNER ANIMADO 
+Y LA ANIMACIÓN LATERAL
 
 
 */

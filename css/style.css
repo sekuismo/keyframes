@@ -1,0 +1,70 @@
+*{
+    color:#769B96
+}
+body{
+    background-color:#346B63;
+}
+
+ul,p{
+    margin: 0;
+    
+}
+
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.contenedor{
+    width: 300px;
+    height: 40px;
+    font-size: 40px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+
+}
+
+@keyframes cambiar{
+    0%{margin-top:0px; }
+    25%{margin-top:0px; }
+    25%{margin-top:-40px; }
+    50%{margin-top:-40px; }
+    55%{margin-top:-80px; }
+    85%{margin-top:-40px; }
+    95%{margin-top:-40px; }
+    96%{margin-top:0px; }
+    100%{margin-top:0px; }
+}
+
+/*
+
+
+
+*/
+
+
+/* 
+otros colores
+
+fondo #346B63
+
+letras #769B96
+
+
+
+*/
+
+/* 
+display block hacia abajo 
+display flex se ve hacia los lados 
+
+
+
+
+*/
